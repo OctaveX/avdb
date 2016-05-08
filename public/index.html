@@ -9,9 +9,6 @@
 
 
 
-
-
-
 <script>
     // Get a database reference to our posts
     var ref = new Firebase("https://octavdb.firebaseio.com");
@@ -22,5 +19,3 @@
       console.log("The read failed: " + errorObject.code);
     });
 </script>
-
-{{ snapshot.val() }}
